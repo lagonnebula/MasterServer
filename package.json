@@ -1,0 +1,16 @@
+{
+  "name": "MasterServer",
+  "version": "0.0.1",
+  "description": "Used to Reverse Proxy",
+  "main": "master.js",
+  "dependencies": {
+    "http-proxy": "~1.1.4",
+    "colors": "^0.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Meuhmeuh",
+  "license": "MIT"
+}

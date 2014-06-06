@@ -1,0 +1,20 @@
+{
+	"config" : {
+		"port" : 8000
+	},
+	"routes" : [
+		{
+			"source" : "test.local.dev",
+			"target" : "http://localhost:3002"
+		},{
+			"source" : "local.dev",
+			"target" : "http://localhost:3001"
+		},{
+			"source" : "*.local.dev",
+			"target" : "http://localhost:3001"
+		},{
+			"source" : "*",
+			"target" : "http://localhost:3000"
+		}
+	]
+}
